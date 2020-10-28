@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Calendar HorizontalAlignment="Left" Margin="62,28,0,0" VerticalAlignment="Top" Height="170" Width="196" RenderTransformOrigin="0.5,0.5">
+            <Calendar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="330"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Calendar.RenderTransform>
+        </Calendar>
+
     </Grid>
 </Window>
